@@ -1,0 +1,80 @@
+<!--#include virtual="seminar12.inc"-->
+
+<h2>Submission of Abstracts</h2>
+<br />
+<p>The Organizing Committee invites submission of contributions to the seminar program in accordance with the general profile and specific topics of the event.</p>
+<p>All contributions will be presented as oral talks.</p>
+<p>The deadline for submitting the abstracts is <strong>January 15, 2010</strong>.</p>
+<p>Please complete the following field and press "Submit the Abstract" button on the bottom of the page.</p>
+
+<form action="http://www.wpi.edu/cgi-bin/captcha-webform.pl" method="post">
+
+<script type="text/javascript">
+var maxlimit = 1250;
+function counter(field)
+{
+	if (field.value.length > maxlimit)
+		field.value = field.value.substring(0, maxlimit);
+}
+</script>
+
+<input type="hidden" name="required-fields" value="name,company,address,city,country,form-email,type,keywords,abstract" />
+<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,type,keywords,abstract" />
+<input type="hidden" name="email-subject" value="12th IMMG Seminar: Abstract" />
+<input type="hidden" name="email-recipients" value="vadim@wpi.edu" />
+<input type="hidden" name="success-redirect" value="http://www.wpi.edu/academics/Depts/Math/CIMS/IMMG/Seminars/form-thanks.html" />
+
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" /></td>
+</tr>
+<tr>
+<td>Company:</td>
+<td><input type="text" name="company" /></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address" /></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="city" /></td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country" /></td>
+</tr>
+<tr>
+<td>E-mail:</td>
+<td><input type="text" name="form-email" /></td>
+</tr>
+<tr>
+<td>Type of contribution:</td>
+<td>
+<br />
+<input type="radio" name="type" value="FDTD/QuickWave-3D presentation" />FDTD/<i>QuickWave-3D</i> presentation<br />
+<input type="radio" name="type" value="FEM/Abaqus presentation" />FEM/<i>Abaqus</i> presentation<br />
+<input type="radio" name="type" value="Technical paper: microwave sintering - modeling" />Technical paper: microwave sintering - modeling<br />
+<input type="radio" name="type" value="Technical paper: microwave sintering - experimentation " />Technical paper: microwave sintering - experimentation
+<br /><br />
+</td>
+</tr>
+<tr>
+<td>Keywords:</td>
+<td><input type="text" name="keywords" maxlength="50" size="50" /></td>
+</tr>
+</table>
+<br />
+<p>To be considered for inclusion in the seminar program, the title and abstract should be submitted through the form below. Later, when the authors are notified on acceptance of their contribution, they will be asked to submit the summary (up to 4 pages) of their paper.</p>
+<p>Please type/paste the material of your prospective contribution here as a plain text. Provide the title, full names of the authors, their affiliations, addresses, e-mails, and the abstract (up to 1250 characters).</p>
+<textarea name="abstract" rows="12" cols="75" onkeydown="counter(this);" onkeyup="counter(this);"></textarea>
+<br /><br />
+
+<script> var RecaptchaOptions = { theme : "white", lang : "en" }; </script> <script src="http://api.recaptcha.net/challenge?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" type="text/javascript"></script> <noscript><iframe frameborder="0" height="300" src="http://api.recaptcha.net/noscript?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" width="500"></iframe><textarea cols="40" name="recaptcha_challenge_field" rows="3"></textarea><input name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+<br />
+<input type="submit" value="Submit the Abstract" name="submit" />
+
+</form>
+
+<!--#include virtual="../../../footer.inc"-->

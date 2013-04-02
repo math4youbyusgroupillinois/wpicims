@@ -1,0 +1,141 @@
+<!--#set var="title" value="WPI Sonia Kovalevsky Day Application 2011"-->
+<!--#include virtual="../../header.inc" -->
+
+<h1>SKDAY</h1>
+
+<br />
+<p>
+Center for Industrial Mathematics and Statistics<br />
+Department of Mathematical Sciences<br />
+Worcester Polytechnic Institute<br />
+Worcester, MA 01609
+</p>
+
+<form action="/cgi-bin/captcha-webform.pl" method="post">
+<input type="hidden" name="email-subject" value="SK Day 2011 Application via CIMS website">
+<input type="hidden" name="email-recipients" value="kgreenfield@wpi.edu">
+<input type="hidden" name="success-page" value="/www/docs/academics/Depts/Math/CIMS/thanks.html">
+
+<p>Please fill in all requested information:</p>
+<hr>
+<h3>1. General Information</h3>
+
+<table border="0" cellpadding="3" cellspacing="3">
+  <tr>
+    <td>Family Name:</td>
+    <td><input type="text" size="30" name="form-lname"></td>
+  </tr>
+  <tr>
+    <td>First Name:</td>
+    <td><input type="text" size="30" name="form-fname"></td>
+  </tr>
+  <tr>
+    <td>Middle Initial:</td>
+    <td><input type="text" size="30" name="Middle_Initial"></td>
+  </tr>
+  <tr>
+    <td>Date of Birth:</td>
+    <td><input type="text" size="30" name="Date_of_Birth"></td>
+  </tr>
+  <tr>
+    <td>Country of Citizenship:</td>
+    <td><input type="text" size="30" name="Country_of_Citizenship"></td>
+  </tr>
+  <tr>
+    <td>School Name:</td>
+    <td><input type="text" size="30" name="School"></td>
+  </tr>
+  <tr>
+    <td>Current Grade:</td>
+    <td><input type="text" size="30" name="Grade"></td>
+  </tr>
+  
+</table>
+
+
+<hr>
+<h3>2. Address</h3>
+
+<table border="0" cellpadding="3" cellspacing="3">
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Current Address</td>
+  </tr>
+  <tr>
+    <td valign="top">Street<br />
+      City, State, ZIP</td>
+    <td valign="top"><textarea name="Current_Address" rows="3" cols="20"></textarea></td>
+  </tr>
+  <tr>
+    <td valign="top">Telephone:</td>
+    <td valign="top"><input type="text" size="20" name="Current_Phone"></td>
+  </tr>
+  <tr>
+    <td valign="top">E-mail:</td>
+    <td valign="top"><input type="text" size="20" name="form-email"></td>
+  </tr>
+</table>
+
+<p>Note: All correspondence will be via e-mail.</p>
+<hr>
+<h3>3. Ethnicity</h3>
+
+<p>Please check all that apply.</p>
+
+<table border="0" cellspacing="3" cellpadding="3">
+  <tr>
+    <td><input type="checkbox" name="Ethnicity_1" value="African-American">
+      African-American</td>
+    <td><input type="checkbox" name="Ethnicity_2" value="American-Indian">
+      American-Indian</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Ethnicity_3" value="Asian-American">
+      Asian-American</td>
+    <td><input type="checkbox" name="Ethnicity_4" value="Chicano"> Chicano</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Ethnicity_5" value="European-American">
+      European-American</td>
+    <td><input type="checkbox" name="Ethnicity_6" value="Fillipino"> Fillipino</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Ethnicity_7" value="Latino"> Latino</td>
+    <td><input type="checkbox" name="Ethnicity_8" value="Native_Alaskan"> Native
+      Alaskan</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="Ethnicity_9" value="Puerto Rican"> Puerto
+      Rican</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="checkbox" name="C10" value="Other"> Other
+      (please specify) <input type="text" size="20" name="Ethnicity"></td>
+  </tr>
+</table>
+
+<hr>
+
+<p>Click the button below to submit your application.  This operation cannot be undone.</p>
+
+
+<script>
+  var RecaptchaOptions = { theme : "white", lang : "en" };
+</script>
+<script src="http://api.recaptcha.net/challenge?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" type="text/javascript"></script>
+<noscript><iframe frameborder="0" height="300" src="http://api.recaptcha.net/noscript?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" width="500"></iframe><textarea cols="40" name="recaptcha_challenge_field" rows="3"></textarea><input name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+
+<p><input type="submit" name="B1" value="Submit the Application"></p>
+
+</form>
+
+<p>For any questions, please contact:</p>
+
+<p>
+Tel: 1-508-831-5241<br />
+Fax: 1-508-831-5824<br />
+Email: Kara Greenfield at <a href="mailto:kgreenfield@wpi.edu">kgreenfield@wpi.edu</a>
+</p>
+
+<!--#include virtual="../../footer.inc" -->

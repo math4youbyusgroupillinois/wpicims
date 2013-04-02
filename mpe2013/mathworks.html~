@@ -1,0 +1,37 @@
+<!--#set var="title" value="Mathematics of Planet Earth 2013"-->
+<!--#set var="subtitle" value="MathWorks/CIMS Lecture Series"-->
+<!--#include virtual="../header.inc"-->
+
+<br />
+
+<img src="images/mpebanner.jpg" />
+<img src="images/mathworks.jpg" />
+
+<br /><br />
+
+<p>The seminars feature interesting uses of MATLAB and SIMULINK for computational mathematics and statistics applications relevant to research on fundamental issues about our planet.</p>
+ 
+<p>The series is hosted by <a href="http://www.mathworks.com/">MathWorks</a> and the <a href="wpi.edu/+CIMS">Center for Industrial Mathematics and Statistics (CIMS) at WPI</a>, with support from the WPI Chapter of the Society for Industrial and Applied Mathematics (SIAM).</p>
+
+<p>Registration is encouraged for each seminar. Please visit the provided link to register, and for more information.</p>
+
+<h3>Seminars</h3>
+<h4>Seminar I - Solar Energy Analysis Using Matlab</h4>
+<p><strong>When:</strong> Wednesday, February 13<sup>th</sup>, from 2-4 PM<br />
+<strong>Where:</strong> Salisbury Laboratories 104, Worcester Polytechnic Institute<br />
+<strong>More info:</strong> <a href="http://www.mathworks.com/seminars/WPI-lecture1">http://www.mathworks.com/seminars/WPI-lecture1</a><br />
+Refreshments will be provided.</p>
+
+<h4>Seminar II - Wind Turbine Modeling and Analysis with MATLAB</h4>
+<p><strong>When:</strong> Wednesday, March 20<sup>th</sup>, from 2-4 PM<br />
+<strong>Where:</strong> Salisbury Laboratories 104, Worcester Polytechnic Institute<br />
+<strong>More info:</strong> <a href="http://www.mathworks.com/seminars/WPI-lecture2">http://www.mathworks.com/seminars/WPI-lecture2</a></p>
+
+<h4>Seminar III - TBD</h4>
+<p><strong>When:</strong> Wednesday, April 10<sup>th</sup>, from 2-4 PM<br />
+<strong>Where:</strong> Salisbury Laboratories 104, Worcester Polytechnic Institute<br />
+<strong>More info:</strong> TBA</p>
+
+
+
+<!--#include virtual="../footer.inc"-->

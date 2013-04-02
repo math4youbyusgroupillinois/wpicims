@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Please enter your password."
+AuthUserFile /www/docs/Academics/Depts/Math/CIMS/IMMG/Seminars/Current/Docs/Papers/.htpasswd
+require valid-user

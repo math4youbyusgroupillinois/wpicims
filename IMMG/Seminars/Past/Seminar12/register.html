@@ -1,0 +1,120 @@
+<!--#include virtual="seminar12.inc"-->
+
+<h2>Registration</h2>
+<br />
+
+<form action="http://www.wpi.edu/cgi-bin/captcha-webform.pl" method="post">
+
+<input type="hidden" name="required-fields" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,month,day,fee" />
+<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,month,day,fee" />
+<input type="hidden" name="email-subject" value="12th IMMG Seminar: Registration" />
+<input type="hidden" name="email-recipients" value="vadim@wpi.edu,emkiley@wpi.edu" />
+<input type="hidden" name="success-redirect" value="http://www.wpi.edu/academics/Depts/Math/CIMS/IMMG/Seminars/form-thanks.html" />
+
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" /></td>
+</tr>
+<tr>
+<td>Company:</td>
+<td><input type="text" name="company" /></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address" /></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="city" /></td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country" /></td>
+</tr>
+<tr>
+<td>E-mail:</td>
+<td><input type="text" name="form-email" /></td>
+</tr>
+<tr>
+<td>I’m a representative of:</td>
+<td>
+<input type="radio" name="represent" value="academia" />academia
+<input type="radio" name="represent" value="industry" />industry
+<input type="radio" name="represent" value="students" />students
+</td>
+</tr>
+<tr>
+<td>
+I’m an AMPERE member*:
+</td>
+<td>
+<input type="radio" name="AMPERE" value="Yes" />Yes
+<input type="radio" name="AMPERE" value="No" />No
+</td>
+</tr>
+</table>
+
+<p style="font-size:13px">*In accordance with the definition of the AMPERE Association, the 2010 AMPERE Membership is counted for those who paid in full the registration fee of the last 12th AMPERE Conference (September 2009, Karlsruhe, Germany) or paid the Association’s annual dues separately in the period from September 15, 2009 to February 1, 2010.</p>
+<br />
+<p>The registration fee covering admission to all technical sessions, seminar materials, refreshments, and lunch (March 9) is:</p>
+<table>
+<tr style="text-align:center">
+<th width="300">For a participant representing...</th>
+<th width="300">Before February 19, 2010 (in Euros)</th>
+<th width="300">After February 19, 2010 (in Euros)</th>
+</tr>
+<tr>
+<td>...industry/government (not AMPERE member)</td>
+<td style="text-align:center">90</td>
+<td style="text-align:center">115</td>
+</tr>
+<tr>
+<td>...industry/government (AMPERE member)</td>
+<td style="text-align:center">80</td>
+<td style="text-align:center">105</td>
+</tr>
+<tr>
+<td>...academia/university (not AMPERE member)</td>
+<td style="text-align:center">70</td>
+<td style="text-align:center">95</td>
+</tr>
+<tr>
+<td>...academia/university (AMPERE member)</td>
+<td style="text-align:center">60</td>
+<td style="text-align:center">85</td>
+</tr>
+<tr>
+<td>...students</td>
+<td style="text-align:center">50</td>
+<td style="text-align:center">70</td>
+</tr>
+</table>
+<br />
+<p>The fee should be paid during the on-site registration (on March 8, 2010) by <strong><i>cash only</i></strong> – sorry, we cannot accept credit cards.</p>
+
+<hr />
+
+<p>To complete registration process, the following button should be checked and the fields below should be completed:</p>
+
+<table>
+<tr>
+<td><input type="checkbox" name="willpay" value="yes" />I’ll pay my registration fee on site on Monday, March 8, 2010.</td>
+</tr>
+<tr>
+<td>Today’s date is (mm/dd): <input type="text" name="month" maxlength="2" size="2" /><input type="text" name="day" maxlength="2" size="2" /></td>
+</tr>
+<tr>
+<td>My fee (in accordance with the above terms) will be:<input type="text" name="fee" maxlength="2" size="2" /> Euros.</td>
+</tr>
+</table>
+
+<hr />
+
+<script> var RecaptchaOptions = { theme : "white", lang : "en" }; </script> <script src="http://api.recaptcha.net/challenge?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" type="text/javascript"></script> <noscript><iframe frameborder="0" height="300" src="http://api.recaptcha.net/noscript?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" width="500"></iframe><textarea cols="40" name="recaptcha_challenge_field" rows="3"></textarea><input name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+<br />
+<input type="submit" value="Submit the Form" name="submit" />
+
+</form>
+
+<!--#include virtual="footer.inc" -->

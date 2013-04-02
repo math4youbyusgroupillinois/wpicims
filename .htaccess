@@ -1,0 +1,20 @@
+
+# 404 - Not Found
+ErrorDocument 404 /Academics/math/CIMS/404.html
+
+# Redirects from old SIAM to new SIAM
+Redirect /academics/math/CIMS/SIAM http://www.wpi.edu/~siam
+Redirect /Academics/math/CIMS/SIAM http://www.wpi.edu/~siam
+
+RedirectMatch /academics/math/CIMS/IMMG/Seminars/(?!Seminar[1-9][0-3]?)(?!Past)(?!Current)(.*) /academics/math/CIMS/IMMG/Seminars/Current/$1
+RedirectMatch /academics/math/CIMS/IMMG/Seminars/(Seminar[0-9][0-9]?)/?(.*) /academics/math/CIMS/IMMG/Seminars/Past/$1/$2
+RedirectMatch /academics/math/CIMS/IMMG/Seminars/Past/(?!Seminar[0-9][0-9]?)(.*) /academics/math/CIMS/IMMG/Seminars/Past/Seminar14/$1
+
+RewriteEngine On
+RewriteBase /Academics/math/CIMS
+
+# Deny hotlinking
+RewriteCond %{IS_SUBREQ} =false
+RewriteCond %{HTTP_REFERER} !http(s)?://([A-Za-z0-9]+\.)?wpi\.edu/ [NC]
+RewriteCond %{REQUEST_FILENAME} .*\.(jpg|jpeg|gif|png|b64)$
+RewriteRule .* - [F,L]

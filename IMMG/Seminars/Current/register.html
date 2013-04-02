@@ -1,0 +1,182 @@
+<!--#include virtual="seminar.inc"-->
+
+<script type="text/javascript">
+function checkFee()
+{
+	if (document.getElementById("fee").selectedIndex==0)
+	{
+		alert("Please select the appropriate fee you will pay in Euros.");
+		return false;
+	}
+	return true;
+}
+</script>
+
+<h2>Registration</h2>
+<br />
+
+<form action="http://www.wpi.edu/cgi-bin/captcha-webform.pl" method="post" onsubmit="return checkFee()">
+
+<input type="hidden" name="required-fields" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,month,day,signature,registered" />
+<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,hes,month,day,fee,signature,registered" />
+<input type="hidden" name="email-subject" value="15th IMMG Seminar: Registration" />
+<input type="hidden" name="email-recipients" value="vadim@wpi.edu,emkiley@wpi.edu" />
+<input type="hidden" name="success-redirect" value="http://www.wpi.edu/academics/Depts/Math/CIMS/IMMG/Seminars/Current/thanks.html" />
+
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" /></td>
+</tr>
+<tr>
+<td>Company:</td>
+<td><input type="text" name="company" /></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address" /></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="city" /></td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country" /></td>
+</tr>
+<tr>
+<td>E-mail:</td>
+<td><input type="text" name="form-email" /></td>
+</tr>
+<tr>
+<td>I am a representative of:</td>
+<td>
+<input type="radio" name="represent" value="academia" />academia
+<input type="radio" name="represent" value="industry" />industry
+<input type="radio" name="represent" value="students" />students
+</td>
+</tr>
+<tr>
+<td>I am an AMPERE member*:</td>
+<td>
+<input type="radio" name="AMPERE" value="Yes" />Yes
+<input type="radio" name="AMPERE" value="No" />No
+</td>
+</tr>
+</table>
+
+<p style="font-size:13px">*In accordance with the definition of the AMPERE Association, the 2012-2013 AMPERE Membership is counted for those who paid in full the registration fee of the 13th AMPERE Conference (September 2011, Toulouse, France) or paid the Association's annual dues separately in the period from September 15, 2011 to March 1, 2013.</p>
+<br />
+
+<hr />
+<p><strong>Seminar Registration Fee</strong></p>
+
+<p>
+Please note that this year's Seminar will be held as a satellite event to HES-13, the International Conference on Heating by Electromagnetic Sources. As such, registrants for the Seminar who are not also registered for HES-13 will need to reimburse HES-13 for the use of the Seminar room and facilities, including lunch and coffee breaks. For this reason, the Seminar registration fee for these participants is higher.
+</p>
+
+<p>For more information about HES-13, and to register for the HES-13 conference, please visit the conference <a href="http://www.hes-13.com/">home page</a>.</p>
+
+<p>The registration fee covering <strong><i>IMMG satellite Seminar technical sessions, Seminar materials, lunch, and coffee breaks is</i></strong> is:</p>
+<table>
+<tr style="text-align:center">
+<th width="300">For a participant representing...</th>
+<th width="300">Without prior HES-13 Registration (EUR)</th>
+<th width="300">With prior HES-13 Registration (EUR)</th>
+</tr>
+<tr>
+<td>...industry/government (not AMPERE member)</td>
+<td style="text-align:center">160</td>
+<td style="text-align:center">50</td>
+</tr>
+<tr>
+<td>...industry/government (AMPERE member)</td>
+<td style="text-align:center">145</td>
+<td style="text-align:center">40</td>
+</tr>
+<tr>
+<td>...academia/university (not AMPERE member)</td>
+<td style="text-align:center">140</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td>...academia/university (AMPERE member)</td>
+<td style="text-align:center">125</td>
+<td style="text-align:center">20</td>
+</tr>
+<tr>
+<td>...students</td>
+<td style="text-align:center">115</td>
+<td style="text-align:center">0</td>
+</tr>
+</table>
+<br />
+<p>The fee should be paid during the on-site registration (on May 23-24, 2013) by <strong><i>cash only</i></strong> &mdash; sorry, we cannot accept credit cards.</p>
+
+<p><input type="checkbox" name="hes" value="yes" />I'm a participant/registrant of HES-13 and would like to attend the Seminar as HES' Satellite Event.</p>
+
+<p>My fee (in accordance with the above terms) will be
+
+<select name="fee" id="fee">
+<option value="" selected="true"></option>
+<option value="160">160</option>
+<option value="145">145</option>
+<option value="140">140</option>
+<option value="125">125</option>
+<option value="115">115</option>
+<option value="50">50</option>
+<option value="40">40</option>
+<option value="30">30</option>
+<option value="20">20</option>
+<option value="0">0</option>
+</select>
+
+ Euros
+</p>
+
+<table>
+<tr>
+<td><input type="checkbox" name="willpay" value="yes" />I will pay my registration fee on site on Thursday, May 23 or Friday, May 24.</td>
+</tr>
+<tr><td>Signature: <input type="text" name="signature" /> (type your name)</td>
+</tr>
+<tr>
+<td>Today's date is (dd/mm): <input type="text" name="day" maxlength="2" size="2" /><input type="text" name="month" maxlength="2" size="2" /></td>
+</tr>
+</table>
+
+<hr />
+
+<p><strong>HES-13 Gala Dinner</strong></p>
+
+<p>
+The Gala Dinner of the HES-13 conference will be held on the evening of Thursday, May 23, and Seminar participants are invited to attend, at a cost which may be paid on site separately; more information can be found on the <a href="http://www.hes-13.com">HES-13 web site</a>. The HES-13 Gala Dinner is considered a social event for the Seminar, so the registrant is invited to attend:
+</p>
+
+<p>
+<input type="radio" name="hes-dinner" value="yes" />Yes, I plan to join other Seminar participants at the HES-13 Gala Dinner on May 23.<br />
+<input type="radio" name="hes-dinner" value="no" />I cannot attend the HES-13 Gala Dinner.
+</p>
+
+<hr />
+
+<p><strong>Seminar Dinner</strong></p>
+
+<p>
+The dinner concluding the Seminar will be held on the evening of Friday, May 24. More information is coming soon. Here, the registrant is asked to inform the organizers about his or her plans:
+</p>
+
+<p>
+<input type="radio" name="seminar-dinner" value="yes" />Yes, I plan to join other Seminar participants at the Seminar Dinner on May 24.<br />
+<input type="radio" name="seminar-dinner" value="no" />I cannot attend the Seminar Dinner.
+</p>
+
+<hr />
+
+<script> var RecaptchaOptions = { theme : "white", lang : "en" }; </script> <script src="http://api.recaptcha.net/challenge?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" type="text/javascript"></script> <noscript><iframe frameborder="0" height="300" src="http://api.recaptcha.net/noscript?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" width="500"></iframe><textarea cols="40" name="recaptcha_challenge_field" rows="3"></textarea><input name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+<br />
+<input type="submit" value="Submit the Form" />
+
+</form>
+
+<!--#include virtual="footer.inc"-->

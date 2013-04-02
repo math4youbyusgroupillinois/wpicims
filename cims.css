@@ -1,0 +1,200 @@
+BODY
+{
+	background-image: url(/Images/Templates/Math/background.gif);
+	background-repeat: repeat-y;
+}
+
+#wpihome { background-image: url(/Images/Templates/Math/backgroundcorner.gif); }
+
+#banner, #banner em
+{
+	width: 365px;
+	height: 85px;
+	background: url(/academics/Depts/Math/CIMS/Images/cimsbanner.gif) top left no-repeat;
+}
+
+#header { background-image: url(/Images/CMS/Math/topbar.gif); }
+
+#endcap
+{
+	width: 55px;
+	height: 85px;
+	background: url(/Images/CMS/Math/endcap.gif);
+}
+
+#imphssnav
+{
+	background-image: url(/academics/Depts/Math/CIMS/Images/imphssnav.gif);
+	padding: 3px 0px 3px 10px;
+	color:white;
+	font-weight: bold;
+	border-color: #990000;
+	border-width: 2px;
+	border-style: solid;
+	border-left-width: 6px;
+	border-right: none;
+}
+
+#imphssnav a:link, #imphssnav a:visited { text-decoration: none; color: white; }
+#imphssnav a:hover { color:#990000; }
+
+.alignright 
+{
+	float: right;
+	margin: 0 0 2px 7px;
+}
+
+#nav
+{
+    background-image: url(/Images/Templates/Math/menutop.jpg);
+    background-repeat: no-repeat;
+    width: 220px;
+}
+
+#nav UL {
+    background-image: url(/Images/Templates/Math/nav.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    margin-top: 0px;
+}
+
+#nav UL LI { background-image: url(/Images/Templates/Math/buttontop.gif); }
+#nav UL LI A, #nav UL LI UL { background-image: url(/Images/Templates/Math/buttonbottom.gif); }
+#nav UL LI.down, #nav UL LI.downsub { background-color: #FFE0B2; }
+#nav UL LI:hover, #nav UL LI LI A:visited:hover, #nav UL LI LI A:link:hover { background-color: #FFE0B2; }
+#nav UL LI.related LI A:hover { background-color: #7ABDDE; }
+#nav UL LI LI { border-color: #036; }
+#nav UL LI.related, #nav UL LI.search { background-color: #99cce5; }
+#nav UL LI.related:hover, #nav UL LI.related UL, #nav UL LI.related LI, #nav UL LI.search:hover { background-color: #99cce5; }
+H1 { color: #036; }
+H3 { color: #369; }
+TH.main { background-color: #99cce5; }
+
+h2.callout
+{
+	background-color: #036;
+	background-image: url(/Images/CMS/bar003366.gif);
+}
+
+#nav UL LI.related
+{
+	background-image: none;
+	margin-top: 0px;
+}
+
+#nav UL LI.related SPAN
+{
+	width: 163px;
+	padding-top: 1em;
+	border-width: 0px 1px 0px 1px;
+	border-style: solid;
+	border-color: #036;
+}
+
+div.top
+{
+	display:inline;
+	float:right;
+	border:thick solid pink;
+}
+div.imgbox
+{
+	border: medium solid #3399cc;
+	background-color: #BBBBBB;
+	float: left;
+	width: 200px;
+	
+}
+div.info
+{
+	margin-left:225px;
+}
+.imgright
+{
+	float:right;
+	margin:0 0 20px 15px;
+}
+
+.imgleft
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bar
+{
+	background-image: none;
+	height:20px;
+	padding: 3px 0px 3px 10px;
+	color:black;
+	font-weight: bold;
+	border-color: #3399cc;
+	border-width: 2px;
+	border-style: solid;
+	border-left-width: 6px;
+	border-right: none;
+}
+
+.bar a:link, .bar a:visited { color:black;}
+.bar a:hover { color:#3399cc; }
+
+ul.barmenu
+{
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	font-weight: bold;
+	border-color: #3399cc;
+	border-width: 2px 0px 2px 6px;
+	border-style: solid;
+	border-left-width: 6px;
+	border-right: none;
+}
+
+ul.barmenu li {display: inline;}
+
+ul.barmenu a:link, ul.barmenu a:visited
+{
+	float:left;
+	text-decoration:none;
+	width:40px;
+	color: black;
+	background-color:white;
+	border-right: 2px solid #3399cc;
+	padding: 5px 10px;
+}
+
+ul.barmenu a:hover
+{
+	background-color:#3399cc;
+}
+
+td.partner
+{
+	text-align: center;
+	vertical-align: bottom;
+	width: 50%;
+}
+
+.nobullet
+{
+	list-style-type: none;
+}
+
+div.columns
+{
+	width: 100%;
+}
+div.leftcol
+{
+	float: left;
+	width: 50%;
+}
+div.rightcol
+{
+	float: right;
+	width: 50%;
+}
