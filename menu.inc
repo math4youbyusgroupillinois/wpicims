@@ -49,7 +49,7 @@
 	<!--#endif-->
 	<li><a href="/academics/math/CIMS/REU/students.html">Students</a></li>
 	<li><a href="/academics/math/CIMS/REU/projects.html">Projects</a></li>
-	<li><a href="/academics/math/CIMS/REU/alumni.html">Alumni</a></li>
+	<li><a href="/academics/math/CIMS/REU/alumni.html">Alumni Highlights</a></li>
 </ul></li>
 <!--#else -->
 <li><a href="/academics/math/CIMS/REU/">REU Program</a></li>
