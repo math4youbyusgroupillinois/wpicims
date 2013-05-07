@@ -98,8 +98,8 @@
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/location.html">Location & Directions</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/accommodations.html">Accommodations</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>
-		<!--
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/program.html">Program</a></li>
+		<!--
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/course.html">Short Course</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/excursion.html">Excursion to Eckart</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/banquet.html">Banquet</a></li>
