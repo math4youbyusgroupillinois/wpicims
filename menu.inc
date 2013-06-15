@@ -90,8 +90,9 @@
 	<li><a href="/academics/math/CIMS/IMMG/Seminars/">Seminars</a>
 	<ul>
 		<!--#if expr="$REQUEST_URI = /Current/" -->
-		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 15</a>
+		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 16</a>
 		<ul>
+		<!--
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/papers.html">Submit Paper</a></li>
@@ -100,7 +101,7 @@
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/program.html">Program</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/banquet.html">Banquet</a></li>
-		<!--
+		
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/course.html">Short Course</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/excursion.html">Excursion to Eckart</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/photos.html">Photo Gallery</a></li>
@@ -108,11 +109,20 @@
 		</ul>
 		</li>
 		<!--#else -->
-		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 15</a></li>
+		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 16</a></li>
 		<!--#endif -->
 		<!--#if expr="$REQUEST_URI = /Past/" -->
 		<li><a href="/academics/math/CIMS/IMMG/Seminars/Past/">Past Seminars</a>
 		<ul>
+			<!--#if expr="$REQUEST_URI = /Seminar15/" -->
+			<li><a href="/academics/math/CIMS/IMMG/Seminars/Past/Seminar15">Seminar15</a>
+			<ul>
+				<li><a href="/academics/math/CIMS/IMMG/Seminars/Past/Seminar15/program.html">Program</a></li>
+				<li><a href="/academics/math/CIMS/IMMG/Seminars/Past/Seminar15/photos.html">Photos</a></li>
+			</ul></li>
+			<!--#else-->
+			<li><a href="/academics/math/CIMS/IMMG/Seminars/Past/Seminar15">Seminar15</a></li>
+			<!--#endif-->
 			<!--#if expr="$REQUEST_URI = /Seminar14/" -->
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Past/Seminar14">Seminar14</a>
 			<ul>
