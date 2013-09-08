@@ -5,7 +5,10 @@
 .galleria-container {
     position: relative;
     overflow: hidden;
-    background: #000;
+    background: #eee;
+    border: 0px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
 }
 .galleria-container img {
     -moz-user-select: none;
