@@ -1,9 +1,20 @@
 <!--#include virtual="seminar.inc"-->
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js" />
+<script src="Photos/galleria-1.2.9.min.js" />
 
 <h2>Photo Gallery</h2>
 <br />
-<i>(Comming soon)</i>
+<div id="galleria">
+    <img src="photo1.png">
+    <img src="photo2.png">
+    <img src="photo3.png">
+    <img src="photo4.png">
+    <img src="photo5.png">
+    <img src="photo6.png">
+</div>
 
-
+<script>
+	Galleria.loadTheme('Photos/themes/classic/galleria.classic.min.js');
+	Galleria.run('#galleria');
+</script>
 <!--#include virtual="footer.inc" -->
