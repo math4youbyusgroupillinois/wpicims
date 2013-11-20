@@ -40,12 +40,12 @@
 <li class="downsub"><a href="/academics/math/CIMS/REU/">REU Program</a>
 <ul>
 	<!--#if expr="$REQUEST_URI = /Current/" -->
-	<li><a href="/academics/math/CIMS/REU/Current/">About REU 2013</a>
+	<li><a href="/academics/math/CIMS/REU/Current/">About REU 2014</a>
 	<ul>
 		<li><a href="/academics/math/CIMS/REU/Current/geninfo.html">Information</a></li>
 	</ul></li>
 	<!--#else -->
-	<li><a href="/academics/math/CIMS/REU/Current/index.html">About REU 2013</a></li>
+	<li><a href="/academics/math/CIMS/REU/Current/index.html">About REU 2014</a></li>
 	<!--#endif-->
 	<li><a href="/academics/math/CIMS/REU/students.html">Students</a></li>
 	<li><a href="/academics/math/CIMS/REU/projects.html">Projects</a></li>
