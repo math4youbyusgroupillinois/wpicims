@@ -92,6 +92,9 @@
 		<!--#if expr="$REQUEST_URI = /Current/" -->
 		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 16</a>
 		<ul>
+			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>
+			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/location.html">Location & Directions</a></li>
+			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>
 		<!--
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>
