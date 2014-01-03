@@ -1,0 +1,91 @@
+<!--#include virtual="seminar.inc"-->
+
+<h2>Submission of Abstracts</h2>
+<br />
+<p>The Organizing Committee invites submission of contributions to the seminar program in accordance with the general profile and specific topics of the event.</p>
+<p>All contributions will be presented as oral talks.</p>
+<p>The deadline for submitting the abstracts is <strong>March 10, 2014</strong>.</p>
+<p>Please complete the following fields and press "Submit the Abstract" button on the bottom of the page.</p>
+
+<form action="http://www.wpi.edu/cgi-bin/captcha-webform.pl" method="post">
+
+<script type="text/javascript">
+var maxlimit = 1500;
+function counter(field)
+{
+	if (field.value.length > maxlimit)
+		field.value = field.value.substring(0, maxlimit);
+}
+</script>
+
+<input type="hidden" name="required-fields" value="name,company,address,city,country,form-email,keywords,abstract,contest" />
+<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,keywords,abstract,contest" />
+<input type="hidden" name="email-subject" value="16th IMMG Seminar: Abstract" />
+<input type="hidden" name="email-recipients" value="vadim@wpi.edu,emkiley@wpi.edu" />
+<input type="hidden" name="success-redirect" value="http://www.wpi.edu/academics/Depts/Math/CIMS/IMMG/Seminars/Current/thanks.html" />
+
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" /></td>
+</tr>
+<tr>
+<td>Company:</td>
+<td><input type="text" name="company" /></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address" /></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="city" /></td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country" /></td>
+</tr>
+<tr>
+<td>E-mail:</td>
+<td><input type="text" name="form-email" /></td>
+</tr>
+<tr>
+	<td>Type of contribution:</td>
+	<td>
+		<input type="radio" name="contribution" value="Workshop" />Workshop Presentation<br />
+        <input type="radio" name="contribution" value="Technical_Session" />Contribution for a technical session<br />
+	</td>
+</tr>
+<tr>
+<td>Keywords:</td>
+<td><input type="text" name="keywords" maxlength="50" size="50" /></td>
+</tr>
+</table>
+<br />
+
+<table>
+<tr>
+<td>Is this a student paper entering the <a href="contest.html" target="_blank">Student Contest</a>?</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="contest" value="yes" />Yes<br />
+<input type="radio" name="contest" value="no" />No</td>
+</tr>
+</table>
+
+<br />
+<p>To be considered for inclusion in the seminar program, the <strong>title and abstract</strong> should be submitted through the form below. Later, when the authors are notified on acceptance of their contribution, they will be asked to submit the summary (up to 5 pages) of their paper.</p>
+<p>Please type/paste the material of your prospective contribution in the box below as <strong>plain text</strong>.</p>
+<p><strong>Important</strong>: Provide the title, full names of the authors, their affiliations, addresses, and e-mails. Make your abstract no more than 1,500 characters.</p>
+
+<textarea name="abstract" rows="12" cols="75" onkeydown="counter(this);" onkeyup="counter(this);"></textarea>
+<br /><br />
+
+<script> var RecaptchaOptions = { theme : "white", lang : "en" }; </script> <script src="http://api.recaptcha.net/challenge?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" type="text/javascript"></script> <noscript><iframe frameborder="0" height="300" src="http://api.recaptcha.net/noscript?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" width="500"></iframe><textarea cols="40" name="recaptcha_challenge_field" rows="3"></textarea><input name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+<br />
+<input type="submit" value="Submit the Abstract" name="submit" />
+
+</form>
+
+<!--#include virtual="footer.inc"-->
