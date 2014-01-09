@@ -1,7 +1,7 @@
 <ul>
 
 <!--#if expr="$REQUEST_URI = /" -->
-<li id="first"><a href="/academics/math/CIMS/">CIMS Home</a></li>
+<li id="first"><a href="/academics/math/CIMS/">CIMS  Home</a></li>
 <!--#else -->
 <li><a href="/academics/math/CIMS/">CIMS Home</a></li>
 <!--#endif -->
@@ -53,6 +53,12 @@
 </ul></li>
 <!--#else -->
 <li><a href="/academics/math/CIMS/REU/">REU Program</a></li>
+<!--#endif -->
+
+<!--#if expr="$REQUEST_URI = /PICMath/" -->
+<li class="down"><a href="/academics/math/CIMS/PICMath/">PIC Math</a></li>
+<!--#else -->
+<li><a href="/academics/math/CIMS/PICMath/">PIC Math</a></li>
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /Teachers/" -->
