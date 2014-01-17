@@ -56,21 +56,26 @@
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /PICMath/" -->
-<li class="down"><a href="/academics/math/CIMS/PICMath/">PIC Math</a></li>
+<li class="down"><a href="/academics/math/CIMS/PICMath/">The PIC Math Program</a></li>
 <!--#else -->
-<li><a href="/academics/math/CIMS/PICMath/">PIC Math</a></li>
+<li><a href="/academics/math/CIMS/PICMath/">The PIC Math Program</a></li>
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /Teachers/" -->
-<li class="downsub"><a href="/academics/math/CIMS/Teachers/">High School Teachers</a>
+<li class="downsub"><a href="/academics/math/CIMS/Teachers/">Mathematics in Industry Institute for Teachers 2000-2005</a>
 <ul>
 	<li><a href="/academics/math/CIMS/Teachers/about.html">About</a></li>
 	<li><a href="/academics/math/CIMS/Teachers/committee.html">Organizing Committee</a></li>
-	<li><a href="/academics/math/CIMS/IMPHSS/">Student Projects</a></li>
 	<li><a href="/academics/math/CIMS/Teachers/workshops.html">Workshops</a></li>
 </ul></li>
 <!--#else -->
-<li><a href="/academics/math/CIMS/Teachers/">High School Teachers</a></li>
+<li><a href="/academics/math/CIMS/Teachers/">Mathematics in Industry Institute for Teachers 2000-2005</a></li>
+<!--#endif -->
+
+<!--#if expr="$REQUEST_URI = /IMPHSS/" -->
+<li class="down"><a href="/academics/math/CIMS/IMPHSS/">Industrial Math Projects for High School </a></li>
+<!--#else -->
+<li><a href="/academics/math/CIMS/IMPHSS/">Industrial Math Projects for High School</a></li>
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /MPI/" -->
@@ -80,13 +85,13 @@
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /mpe2013/" -->
-<li class="down"><a href="/academics/math/CIMS/mpe2013/">Mathematics of Planet Earth 2013</a></li>
+<li class="down"><a href="/academics/math/CIMS/mpe2013/">Mathematics of Planet Earth </a></li>
 <!--#else -->
 <li><a href="/academics/math/CIMS/mpe2013/">Mathematics of Planet Earth 2013</a></li>
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /IMMG/" -->
-<li class="downsub"><a href="/academics/math/CIMS/IMMG/">IMMG</a>
+<li class="downsub"><a href="/academics/math/CIMS/IMMG/">Industrial Microwave Modeling Group</a>
 <ul>
 	<li><a href="/academics/math/CIMS/IMMG/Objectives/">Objectives</a></li>
 	<li><a href="/academics/math/CIMS/IMMG/Research/">Research</a></li>
@@ -268,19 +273,13 @@
 	<li><a href="/academics/math/CIMS/IMMG/Partnership/">Partnership</a></li>
 </ul></li>
 <!--#else -->
-<li><a href="/academics/math/CIMS/IMMG/">IMMG</a></li>
+<li><a href="/academics/math/CIMS/IMMG/">Industrial Microwave Modeling Group</a></li>
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /Events/" -->
 <li class="down"><a href="/academics/math/CIMS/Events/">Events</a></li>
 <!--#else -->
 <li><a href="/academics/math/CIMS/Events/">Events</a></li>
-<!--#endif -->
-
-<!--#if expr="$REQUEST_URI = /WPI/" -->
-<li class="down"><a href="/academics/math/CIMS/WPI/">About WPI</a></li>
-<!--#else -->
-<li><a href="/academics/math/CIMS/WPI/">About WPI</a></li>
 <!--#endif -->
 
 <li class="search"><span>Search</span> 
