@@ -8,7 +8,6 @@ Redirect /Academics/math/CIMS/SIAM http://www.wpi.edu/~siam
 
 RedirectMatch /academics/math/CIMS/IMMG/Seminars/(?!Seminar[1-9][0-3]?)(?!Past)(?!Current)(.*) /academics/math/CIMS/IMMG/Seminars/Current/$1
 RedirectMatch /academics/math/CIMS/IMMG/Seminars/(Seminar[0-9][0-9]?)/?(.*) /academics/math/CIMS/IMMG/Seminars/Past/$1/$2
-RedirectMatch /academics/math/CIMS/IMMG/Seminars/Past/(?!Seminar[0-9][0-9]?)(.*) /academics/math/CIMS/IMMG/Seminars/Past/Seminar15/$1
 
 RewriteEngine On
 RewriteBase /Academics/math/CIMS
