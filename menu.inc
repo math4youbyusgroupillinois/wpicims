@@ -73,9 +73,9 @@
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /IMPHSS/" -->
-<li class="down"><a href="/academics/math/CIMS/IMPHSS/">Industrial Math Projects for High School </a></li>
+<li class="down"><a href="/academics/math/CIMS/IMPHSS/">Industrial Math Projects for High School Students </a></li>
 <!--#else -->
-<li><a href="/academics/math/CIMS/IMPHSS/">Industrial Math Projects for High School</a></li>
+<li><a href="/academics/math/CIMS/IMPHSS/">Industrial Math Projects for High School Students</a></li>
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /MPI/" -->
@@ -87,7 +87,7 @@
 <!--#if expr="$REQUEST_URI = /mpe2013/" -->
 <li class="down"><a href="/academics/math/CIMS/mpe2013/">Mathematics of Planet Earth </a></li>
 <!--#else -->
-<li><a href="/academics/math/CIMS/mpe2013/">Mathematics of Planet Earth 2013</a></li>
+<li><a href="/academics/math/CIMS/mpe2013/">Mathematics of Planet Earth</a></li>
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /IMMG/" -->
@@ -103,6 +103,7 @@
 		<!--#if expr="$REQUEST_URI = /Current/" -->
 		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 16</a>
 		<ul>
+			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/location.html">Location & Directions</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>
