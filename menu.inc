@@ -61,6 +61,13 @@
 <li><a href="/academics/math/CIMS/PICMath/">The PIC Math Program</a></li>
 <!--#endif -->
 
+<!--#if expr="$REQUEST_URI = /MIST/" -->
+<li class="downsub"><a href="/academics/math/CIMS/MIST/">2014 Mathematics Institute for Secondary Teaching</a>
+<ul></ul></li>
+<!--#else -->
+<li><a href="/academics/math/CIMS/MIST/">2014 Mathematics Institute for Secondary Teaching</a></li>
+<!--#endif -->
+
 <!--#if expr="$REQUEST_URI = /Teachers/" -->
 <li class="downsub"><a href="/academics/math/CIMS/Teachers/">Mathematics in Industry Institute for Teachers 2000-2005</a>
 <ul>
