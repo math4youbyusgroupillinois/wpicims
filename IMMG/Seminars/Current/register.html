@@ -3,7 +3,7 @@
 <script type="text/javascript">
 function checkFee()
 {
-	if (document.getElementById("fee").selectedIndex==0)
+	if ((document.getElementById("fee").selectedIndex==0) && (document.getElementById("waived").checked==false))
 	{
 		alert("Please select the appropriate fee you will pay in Euros.");
 		return false;
@@ -18,7 +18,7 @@ function checkFee()
 <form action="http://www.wpi.edu/cgi-bin/captcha-webform.pl" method="post" onsubmit="return checkFee()">
 
 <input type="hidden" name="required-fields" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,month,day,dinner" />
-<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,month,day,fee,dinner" />
+<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,feewaived,month,day,fee,dinner" />
 <input type="hidden" name="email-subject" value="16th IMMG Seminar: Registration" />
 <input type="hidden" name="email-recipients" value="vadim@wpi.edu,emkiley@wpi.edu" />
 <input type="hidden" name="success-redirect" value="http://www.wpi.edu/academics/Depts/Math/CIMS/IMMG/Seminars/Current/thanks.html" />
@@ -67,7 +67,7 @@ I'm an AMPERE member*:
 </tr>
 </table>
 
-<p style="font-size:13px">*In accordance with the definition of the AMPERE Association, the 2012-2013 AMPERE Membership is counted for those who paid in full the registration fee of the 14th AMPERE Conference (September 2013, Nottingham, U.K.) or paid the Association's annual dues separately in the period from September 15, 2013 to May 12, 2014.</p>
+<p style="font-size:13px">*In accordance with the definition of the AMPERE Association, the 2013-2014 AMPERE Membership is counted for those who paid in full the registration fee of the 14th AMPERE Conference (September 2013, Nottingham, U.K.) or paid the Association's annual dues separately in the period from September 15, 2013 to May 12, 2014.</p>
 <br />
 
 <hr>
@@ -111,37 +111,47 @@ I'm an AMPERE member*:
 
 <hr />
 
-<p>To complete registration process, the following checkbox should be checked and the fields below should be completed:</p>
+<p>To complete the registration process, choose an option below and type in the date of your 
+registration: 
+</p>
 
 <table>
 <tr>
-<td><input type="checkbox" name="willpay" value="yes" />I'll pay my registration fee on site on Monday, May 12, 2014.</td>
-</tr>
-<tr>
-<td>Today's date is (dd/mm): <input type="text" name="day" maxlength="2" size="2" /><input type="text" name="month" maxlength="2" size="2" /></td>
-</tr>
-</table>
-<br />
-
+<td><input type="radio" name="willpay" value="yes" />I'll pay my registration fee on site on Monday, May 12, 2014.
 <p>My fee (in accordance with the above terms) will be
 
 <select name="fee" id="fee">
 <option value="" selected="true"></option>
+<option value="180">180</option>
 <option value="155">155</option>
-<option value="130">130</option>
+<option value="150">150</option>
 <option value="125">125</option>
-<option value="100">100</option>
-<option value="70">70</option>
+<option value="80">80</option>
 </select>
 
  Euros
 </p>
+</td>
+
+</tr>
+<tr>
+<td><input type="radio" name="willpay" value="waived" id="waived" />I'm a principal 
+representative of a seminar's sponsor - my fee is waived. 
+</td>
+</tr>
+<tr>
+<td><br /><br />Today's date is (dd/mm): <input type="text" name="day" maxlength="2" size="2" 
+/><input 
+type="text" name="month" maxlength="2" size="2" /></td>
+</tr>
+</table>
+<br />
 
 <hr />
 
 
 
-<p><strong>Seminar Gala Dinner</strong></p>
+<p><strong>Seminar Banquet</strong></p>
 <p>The dinner is scheduled for Monday evening, May 12, 2012; the details can be found on the <u>Seminar Banquet</u> page (<i>Coming soon</i>). <strong><i>This social event will be organized with a generous support of the Seminar sponsors. For the registered participants, the cost of the dinner is included in the individual registration fee;</i></strong> for accompanying persons, the Banquet guest ticket will be 70 Euros. </p>
 
 <p>For planning purposes, please indicate your intention to attend this social event:  </p>

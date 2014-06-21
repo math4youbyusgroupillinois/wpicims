@@ -62,8 +62,11 @@
 <!--#endif -->
 
 <!--#if expr="$REQUEST_URI = /MIST/" -->
-<li class="downsub"><a href="/academics/math/CIMS/MIST/">2014 Mathematics Institute for Secondary Teaching</a>
-<ul></ul></li>
+<li class="downsub"><a href="/academics/math/CIMS/MIST">2014 Mathematics Institute for Secondary Teaching</a>
+<ul>
+<li><a href="/academics/math/CIMS/MIST/about.html">About</a></li>
+<li><a href="/academics/math/CIMS/MIST/application.html">Register</a></li>
+</ul></li>
 <!--#else -->
 <li><a href="/academics/math/CIMS/MIST/">2014 Mathematics Institute for Secondary Teaching</a></li>
 <!--#endif -->
@@ -111,6 +114,7 @@
 		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 16</a>
 		<ul>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>
+			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/program.html">Program</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/papers.html">Submit Paper</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>
