@@ -111,17 +111,23 @@
 	<li><a href="/academics/math/CIMS/IMMG/Seminars/">Seminars</a>
 	<ul>
 		<!--#if expr="$REQUEST_URI = /Current/" -->
-		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 16</a>
+		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 17</a>
 		<ul>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/program.html">Program</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/papers.html">Submit Paper</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/location.html">Location & Directions</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/accommodations.html">Accommodations</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/excursion.html">Excursion to KIT</a></li>
-			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/banquet.html">Banquet</a></li>
+            <!-- Temporary placeholder list items. Use the items with links instead when corresponding pages are created. -->
+            <li>Registration (coming soon) </li>
+            <li>Submit Abstract (coming soon) </li>
+            <li>Location & Directions (coming soon) </li>
+
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>-->
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/program.html">Program</a></li>-->
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>-->
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/papers.html">Submit Paper</a></li>-->
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>-->
+            
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/location.html">Location & Directions</a></li>-->
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/accommodations.html">Accommodations</a></li>-->
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/excursion.html">Excursion to KIT</a></li>-->
+			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/banquet.html">Banquet</a></li>-->
 		<!--
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>
 			<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/abstract.html">Submit Abstract</a></li>
@@ -138,7 +144,7 @@
 		</ul>
 		</li>
 		<!--#else -->
-		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 16</a></li>
+		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 17</a></li>
 		<!--#endif -->
 		<li><a href="/academics/math/CIMS/IMMG/Seminars/Past/">Past Seminars</a></li>
 	</ul></li>
