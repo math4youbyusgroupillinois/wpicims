@@ -114,9 +114,9 @@
 		<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/">Seminar 17</a>
 		<ul>
             <!-- Temporary placeholder list items. Use the items with links instead when corresponding pages are created. -->
-            <li>Registration (coming soon) </li>
-            <li>Submit Abstract (coming soon) </li>
-            <li>Location & Directions (coming soon) </li>
+            <li><a href="#">Registration (coming soon)</a> </li>
+            <li><a href="#">Submit Abstract (coming soon)</a> </li>
+            <li><a href="#">Location & Directions (coming soon)</a> </li>
 
 			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>-->
 			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/program.html">Program</a></li>-->
