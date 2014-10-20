@@ -1,0 +1,86 @@
+<!--#include virtual="seminar.inc"-->
+
+<h2>Submission of Abstracts</h2>
+<br />
+<font color="red"> <b> At this point, the process of submission of 
+contributions to the 16th Seminar is completed, and the program of the 
+event is compiled. Thank you for your interest; please return to this 
+web site in Spring 2015 with the submission for the 16th Seminar! </b> 
+</font>
+<br />
+<br />
+<p>The Organizing Committee invites submission of contributions to the seminar program in accordance with the general profile and specific topics of the event.</p>
+<p>All contributions will be presented as oral talks.</p>
+<p>The deadline for submitting the abstracts is <strong>March 10, 2014</strong>.</p>
+<p>Please complete the following fields and press "Submit the Abstract" button on the bottom of the page.</p>
+
+<form action="http://www.wpi.edu/cgi-bin/captcha-webform.pl" method="post">
+
+<script type="text/javascript">
+var maxlimit = 1500;
+function counter(field)
+{
+	if (field.value.length > maxlimit)
+		field.value = field.value.substring(0, maxlimit);
+}
+</script>
+
+<input type="hidden" name="required-fields" value="name,company,address,city,country,form-email,abstract,contest" />
+<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,abstract,contest" />
+<input type="hidden" name="email-subject" value="16th IMMG Seminar: Abstract" />
+<input type="hidden" name="email-recipients" value="vadim@wpi.edu,emkiley@wpi.edu" />
+<input type="hidden" name="success-redirect" value="http://www.wpi.edu/academics/Depts/Math/CIMS/IMMG/Seminars/Current/thanks.html" />
+
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" maxlength="50" size="50" /></td>
+</tr>
+<tr>
+<td>Company:</td>
+<td><input type="text" name="company" maxlength="50" size="50" /></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address" maxlength="50" size="50" /></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="city" maxlength="50" size="50" /></td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country" maxlength="50" size="50" /></td>
+</tr>
+<tr>
+<td>E-mail:</td>
+<td><input type="text" name="form-email" maxlength="50" size="50" /></td>
+</tr>
+</table>
+<br />
+
+<table>
+<tr>
+<td>Is this a student paper entering the <a href="contest.html" target="_blank">Student Contest</a>?</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="contest" value="yes" />Yes<br />
+<input type="radio" name="contest" value="no" />No</td>
+</tr>
+</table>
+
+<br />
+<p>To be considered for inclusion in the seminar program, the title and abstract should be submitted through the form below. Later, when the authors are notified on acceptance of their contribution, they will be asked to submit the summary (up to 5 pages) of their paper.</p>
+
+<p>Please type/paste the material of your prospective contribution here as a plain text. Provide the title, full names of the authors, their affiliations, addresses, e-mails, keywords, and the abstract (up to 1500 characters).</p>
+
+<textarea name="abstract" rows="12" cols="75" onkeydown="counter(this);" onkeyup="counter(this);"></textarea>
+<br /><br />
+
+<script> var RecaptchaOptions = { theme : "white", lang : "en" }; </script> <script src="http://api.recaptcha.net/challenge?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" type="text/javascript"></script> <noscript><iframe frameborder="0" height="300" src="http://api.recaptcha.net/noscript?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" width="500"></iframe><textarea cols="40" name="recaptcha_challenge_field" rows="3"></textarea><input name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+<br />
+
+</form>
+
+<!--#include virtual="footer.inc"-->

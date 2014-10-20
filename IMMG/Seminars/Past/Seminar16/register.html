@@ -1,0 +1,181 @@
+<!--#include virtual="seminar.inc"-->
+
+<script type="text/javascript">
+function checkFee()
+{
+	if ((document.getElementById("fee").selectedIndex==0) && (document.getElementById("waived").checked==false))
+	{
+		alert("Please select the appropriate fee you will pay in Euros.");
+		return false;
+	}
+	return true;
+}
+</script>
+
+<h2>Registration</h2>
+<br />
+
+<form action="http://www.wpi.edu/cgi-bin/captcha-webform.pl" method="post" onsubmit="return checkFee()">
+
+<input type="hidden" name="required-fields" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,month,day,dinner" />
+<input type="hidden" name="form-header-list" value="name,company,address,city,country,form-email,represent,AMPERE,willpay,feewaived,month,day,fee,dinner" />
+<input type="hidden" name="email-subject" value="16th IMMG Seminar: Registration" />
+<input type="hidden" name="email-recipients" value="vadim@wpi.edu,emkiley@wpi.edu" />
+<input type="hidden" name="success-redirect" value="http://www.wpi.edu/academics/Depts/Math/CIMS/IMMG/Seminars/Current/thanks.html" />
+
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" /></td>
+</tr>
+<tr>
+<td>Company:</td>
+<td><input type="text" name="company" /></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address" /></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="city" /></td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country" /></td>
+</tr>
+<tr>
+<td>E-mail:</td>
+<td><input type="text" name="form-email" /></td>
+</tr>
+<tr>
+<td>I'm a representative of:</td>
+<td>
+<input type="radio" name="represent" value="academia" />academia
+<input type="radio" name="represent" value="industry" />industry
+<input type="radio" name="represent" value="students" />students
+</td>
+</tr>
+<tr>
+<td>
+I'm an AMPERE member*:
+</td>
+<td>
+<input type="radio" name="AMPERE" value="Yes" />Yes
+<input type="radio" name="AMPERE" value="No" />No
+</td>
+</tr>
+</table>
+
+<p style="font-size:13px">*In accordance with the definition of the AMPERE Association, the 2013-2014 AMPERE Membership is counted for those who paid in full the registration fee of the 14th AMPERE Conference (September 2013, Nottingham, U.K.) or paid the Association's annual dues separately in the period from September 15, 2013 to May 12, 2014.</p>
+<br />
+
+<hr>
+<p><strong>Seminar Registration Fee</strong></p>
+<table>
+<tr style="text-align:center">
+<th width="350">For a participant representing...</th>
+<th width="300">Before April 11, 2014 (EUR)</th>
+<th width="300">After April 11, 2014 (EUR)</th>
+</tr>
+<tr>
+<td>...industry/government (not AMPERE member)</td>
+<td style="text-align:center">155</td>
+<td style="text-align:center">180</td>
+</tr>
+<tr>
+<td>...industry/government (AMPERE member)</td>
+<td style="text-align:center">130</td>
+<td style="text-align:center">155</td>
+</tr>
+<tr>
+<td>...academia/university (not AMPERE member)</td>
+<td style="text-align:center">125</td>
+<td style="text-align:center">150</td>
+</tr>
+<tr>
+<td>...academia/university (AMPERE member)</td>
+<td style="text-align:center">100</td>
+<td style="text-align:center">125</td>
+</tr>
+<tr>
+<td>...students</td>
+<td style="text-align:center">70</td>
+<td style="text-align:center">80</td>
+</tr>
+</table>
+<br />
+<p>The registration fee covers admission to all technical sessions, seminar materials, technical excursion over the KIT research facilities, refreshments, lunches, Seminar Banquet (including bus transportation), and bus transportation from the city center to the seminar venue at KIT CN and back.</p>
+<br>
+<p>The fee should be paid during the on-site registration (on May 12-13, 2014) by <strong><i>cash only</i></strong> &mdash; sorry, we cannot accept credit cards.</p>
+
+<hr />
+
+<p>To complete the registration process, choose an option below and type in the date of your 
+registration: 
+</p>
+
+<table>
+<tr>
+<td><input type="radio" name="willpay" value="yes" />I'll pay my registration fee on site on Monday, May 12, 2014.
+<p>My fee (in accordance with the above terms) will be
+
+<select name="fee" id="fee">
+<option value="" selected="true"></option>
+<option value="180">180</option>
+<option value="155">155</option>
+<option value="150">150</option>
+<option value="125">125</option>
+<option value="80">80</option>
+</select>
+
+ Euros
+</p>
+</td>
+
+</tr>
+<tr>
+<td><input type="radio" name="willpay" value="waived" id="waived" />I'm a principal 
+representative of a seminar's sponsor - my fee is waived. 
+</td>
+</tr>
+<tr>
+<td><br /><br />Today's date is (dd/mm): <input type="text" name="day" maxlength="2" size="2" 
+/><input 
+type="text" name="month" maxlength="2" size="2" /></td>
+</tr>
+</table>
+<br />
+
+<hr />
+
+
+
+<p><strong>Seminar Banquet</strong></p>
+<p>The dinner is scheduled for Monday evening, May 12, 2012; the details can be found on the <u>Seminar Banquet</u> page (<i>Coming soon</i>). <strong><i>This social event will be organized with a generous support of the Seminar sponsors. For the registered participants, the cost of the dinner is included in the individual registration fee;</i></strong> for accompanying persons, the Banquet guest ticket will be 70 Euros. </p>
+
+<p>For planning purposes, please indicate your intention to attend this social event:  </p>
+
+
+<p>
+<input type="radio" name="dinner" value="yes" />Yes, I plan to join other seminar participants at the Seminar Banquet on May 12, and I'll purchase 
+<select name="dinner_tickets" id="dinner_tickets">
+<option value="" selected="true"></option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select> guest tickets for it.<br />
+<input type="radio" name="dinner" value="no" />No, thanks, I cannot attend the Dinner / have alternative plans / etc. 
+</p>
+
+<hr />
+
+<script> var RecaptchaOptions = { theme : "white", lang : "en" }; </script> <script src="http://api.recaptcha.net/challenge?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" type="text/javascript"></script> <noscript><iframe frameborder="0" height="300" src="http://api.recaptcha.net/noscript?k=6LddEgMAAAAAAOlPLc8YW-G33UyshoUNdmSTTq2F" width="500"></iframe><textarea cols="40" name="recaptcha_challenge_field" rows="3"></textarea><input name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+<br />
+<input type="submit" value="Submit the Form" />
+
+</form>
+
+<!--#include virtual="footer.inc"-->
