@@ -6,7 +6,7 @@
 
 <br />
 <p><strong>March 5-6, 2012</strong></p>
-<p><strong>University of Bayreuth<br />
+<p>
 Bayreuth, Germany</strong></p>
 
 <hr />

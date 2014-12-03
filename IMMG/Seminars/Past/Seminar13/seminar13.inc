@@ -6,7 +6,7 @@
 
 <br />
 <p><strong>March 7-8, 2011</strong></p>
-<p><strong>Swiss Federal Laboratories for Materials Science and Technology (EMPA)<br />
+<p>
 Thun, Switzerland</strong></p>
 
 <hr />
