@@ -119,7 +119,7 @@
             <li><a href="/academics/math/CIMS/IMMG/Seminars/Current/location.html">Location & Directions</a> </li>
             <li><a href="/academics/math/CIMS/IMMG/Seminars/Current/accommodations.html">Accommodations </a> </li>
             <li><a href="/academics/math/CIMS/IMMG/Seminars/Current/social.html">Social Program</a> </li>
-            <li><a href="#">Student Contest (coming soon)</a></li>
+            <li><a href="/academics/math/CIMS/IMMG/Seminars/Current/contest.html">Student Contest</a></li>
 
 			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/register.html">Registration</a></li>-->
 			<!--<li><a href="/academics/math/CIMS/IMMG/Seminars/Current/program.html">Program</a></li>-->

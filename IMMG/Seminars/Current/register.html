@@ -144,21 +144,41 @@ I'm an AMPERE member**<sup>+</sup>:
 </select> tickets for it.<br />
 <input type="radio" name="dinner" value="no" />No, thanks, I cannot be a part of the Social Program / have alternative plans / etc. 
 </p>
+<hr />
+<h4>Optional Ljubljana City Tour</h4>
+<!-- Optional City Tour -->
+<input type="checkbox" name="citytour" value="yes" />Yes, I'm interested in an Optional Ljubljana City Tour (39 Euros) - I would like to purchase
+<select name="citytour_tickets" id="citytour_tickets" onchange="calculateTotal()" onClick="calculateTotal()">
+  <option value="" selected="true"></option>
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select> tickets for it.<br />
+<br />
+My preferable time for this tour on March 13, 2015 is:<br /> <br />
+<input type="radio" name="citytour_preferredtime" value="Morning" /> Morning <br />
+<input type="radio" name="citytour_preferredtime" value="Afternoon" /> Afternoon <br />
+<p style="color:red; font-size: 10pt">(I understand that the group should consist of a minimum of 8 people. If it is formed (before March 2, 2015), I'll be notified on the details.)</p>
+<hr />
+<h4>Registration Overview</h4>
 <p>
-My total payment (to be paid on site on March 11, 2015) is <input type="text" id="TotalDue" name="totaldue">
+My total payment (to be paid on site on March 11, 2015) is &#8364 <input type="text" id="TotalDue" name="totaldue" style="width: 60px">
 
 <script type="text/javascript">
 function calculateTotal(){
 
     var totalPrice;
     var ticketPriceTotal = document.getElementById("dinner_tickets").value * 79;
+    var cityTourPriceTotal = document.getElementById("citytour_tickets").value * 39;
     var feeDue = document.getElementById("fee").value;
-    totalPrice = parseInt(ticketPriceTotal) + parseInt(feeDue);
+    totalPrice = parseInt(ticketPriceTotal) + parseInt(feeDue) + parseInt(cityTourPriceTotal);
     document.getElementById("TotalDue").defaultValue = totalPrice || 0;
 }
 
 </script>
-
+</p>
 <hr />
 <p>To complete the registration process, type your name and the date in the fields below and press the Submit button.</p>
 <p>Name: <input type="text" name="confirmname"></p>
